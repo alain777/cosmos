@@ -34,7 +34,7 @@ from pina.operators import laplacian
 from pina.model import FeedForward
 from pina.equation import Equation, FixedValue
 from pina import Condition, Trainer
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.geometry import CartesianDomain
 
 

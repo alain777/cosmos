@@ -1,4 +1,4 @@
-""" Abstract class for Optimizer """
+""" Abstract class for the Optimizer interface. """
 
-class Optimizer:
+class OptimizerInterface:
     pass

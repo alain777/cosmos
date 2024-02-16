@@ -6,7 +6,7 @@ from torch.nn import Softplus
 
 from pina import LabelTensor
 from pina.model import FeedForward
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.plotter import Plotter
 from pina.trainer import Trainer
 from problems.wave import Wave

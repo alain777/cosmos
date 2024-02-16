@@ -185,9 +185,9 @@ pl.plot_samples(problem=problem)
 
 
 from pina import Trainer
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.model import FeedForward
-from pina.callbacks import MetricTracker
+from pina.callback import MetricTracker
 
 
 # build the model

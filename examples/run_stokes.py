@@ -3,7 +3,7 @@ from torch.nn import Softplus
 
 from pina import Plotter, Trainer
 from pina.model import FeedForward
-from pina.solvers import PINN
+from pina.solver import PINN
 from problems.stokes import Stokes
 
 if __name__ == "__main__":

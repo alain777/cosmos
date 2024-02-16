@@ -29,7 +29,7 @@ from pina.problem import ParametricProblem
 from pina.model.layers import PODLayer
 from pina import Condition, LabelTensor, Trainer
 from pina.model import FeedForward
-from pina.solvers import SupervisedSolver
+from pina.solver import SupervisedSolver
 
 print(f'We are using PINA version {pina.__version__}')
 

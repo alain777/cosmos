@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 import torch
-from pina.callbacks import MetricTracker
+from pina.callback import MetricTracker
 from pina import LabelTensor
 
 

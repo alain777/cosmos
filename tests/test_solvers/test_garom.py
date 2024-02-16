@@ -2,7 +2,7 @@ import torch
 
 from pina.problem import AbstractProblem
 from pina import Condition, LabelTensor
-from pina.solvers import GAROM
+from pina.solver import GAROM
 from pina.trainer import Trainer
 import torch.nn as nn
 import matplotlib.tri as tri

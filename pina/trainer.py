@@ -2,8 +2,8 @@
 
 import pytorch_lightning
 from .utils import check_consistency
-from .dataset import SamplePointDataset, SamplePointLoader, DataPointDataset
-from .solvers.solver import SolverInterface
+from .data.samples_dataset import SamplePointDataset, SamplePointLoader, DataPointDataset
+from .solver.solver import SolverInterface
 
 class Trainer(pytorch_lightning.Trainer):
 

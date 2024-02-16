@@ -4,7 +4,7 @@ import torch
 from torch.nn import Softplus
 
 from pina.model import FeedForward
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.plotter import Plotter
 from pina.trainer import Trainer
 from problems.first_order_ode import FirstOrderODE

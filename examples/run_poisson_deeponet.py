@@ -1,7 +1,7 @@
 import argparse
 import torch
 from pina import Plotter, LabelTensor, Trainer
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.model import DeepONet, FeedForward
 from problems.parametric_poisson import ParametricPoisson
 

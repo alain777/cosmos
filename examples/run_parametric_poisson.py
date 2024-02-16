@@ -2,7 +2,7 @@ import argparse
 import torch
 from torch.nn import Softplus
 from pina import Plotter, LabelTensor, Trainer
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.model import FeedForward
 from problems.parametric_poisson import ParametricPoisson
 

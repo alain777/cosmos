@@ -2,10 +2,10 @@ import torch
 
 from pina.problem import AbstractProblem
 from pina import Condition, LabelTensor
-from pina.solvers import SupervisedSolver
+from pina.solver import SupervisedSolver
 from pina.trainer import Trainer
 from pina.model import FeedForward
-from pina.loss import LpLoss
+from pina.loss.power_loss import LpLoss
 
 
 class NeuralOperatorProblem(AbstractProblem):

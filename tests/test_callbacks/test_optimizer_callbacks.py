@@ -1,4 +1,4 @@
-from pina.callbacks import SwitchOptimizer
+from pina.callback import SwitchOptimizer
 import torch
 import pytest
 
@@ -6,7 +6,7 @@ from pina.problem import SpatialProblem
 from pina.operators import laplacian
 from pina.geometry import CartesianDomain
 from pina import Condition, LabelTensor
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.trainer import Trainer
 from pina.model import FeedForward
 from pina.equation.equation import Equation

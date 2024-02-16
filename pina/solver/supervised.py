@@ -11,7 +11,7 @@ from torch.optim.lr_scheduler import ConstantLR
 from .solver import SolverInterface
 from ..label_tensor import LabelTensor
 from ..utils import check_consistency
-from ..loss import LossInterface
+from ..loss.power_loss import LossInterface
 from torch.nn.modules.loss import _Loss
 
 

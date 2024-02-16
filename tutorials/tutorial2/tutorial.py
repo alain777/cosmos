@@ -16,13 +16,13 @@ from torch.nn import Softplus
 from pina.problem import SpatialProblem
 from pina.operators import laplacian
 from pina.model import FeedForward
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.trainer import Trainer
 from pina.plotter import Plotter
 from pina.geometry import CartesianDomain
 from pina.equation import Equation, FixedValue
 from pina import Condition, LabelTensor
-from pina.callbacks import MetricTracker
+from pina.callback import MetricTracker
 
 
 # ## The problem definition

@@ -10,7 +10,7 @@ except ImportError:
 from torch.optim.lr_scheduler import ConstantLR
 from .solver import SolverInterface
 from ..utils import check_consistency
-from ..loss import LossInterface, PowerLoss
+from ..loss.power_loss import LossInterface, PowerLoss
 from torch.nn.modules.loss import _Loss
 
 

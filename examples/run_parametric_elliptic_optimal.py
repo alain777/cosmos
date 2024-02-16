@@ -4,7 +4,7 @@ import torch
 from torch.nn import Softplus
 
 from pina import LabelTensor
-from pina.solvers import PINN
+from pina.solver import PINN
 from pina.model import MultiFeedForward
 from pina.plotter import Plotter
 from pina.trainer import Trainer

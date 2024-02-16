@@ -14,7 +14,7 @@ from scipy import io
 import torch
 from pina.model import FNO, FeedForward  # let's import some models
 from pina import Condition, LabelTensor
-from pina.solvers import SupervisedSolver
+from pina.solver import SupervisedSolver
 from pina.trainer import Trainer
 from pina.problem import AbstractProblem
 import matplotlib.pyplot as plt
@@ -99,7 +99,7 @@ trainer.train()
 # In[19]:
 
 
-from pina.loss import LpLoss
+from pina.loss.power_loss import LpLoss
 
 # make the metric
 metric_err = LpLoss(relative=True)
